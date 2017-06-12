@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC807D9C1EEE1F41005F2E3B /* Native.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC807D9B1EEE1F41005F2E3B /* Native.swift */; };
+		EC807DA01EEE24FD005F2E3B /* RLBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC807D9F1EEE24FD005F2E3B /* RLBridge.swift */; };
+		EC807DA21EEE262F005F2E3B /* RLWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC807DA11EEE262F005F2E3B /* RLWebView.swift */; };
 		EC86834F1EEA95D4004725D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86834E1EEA95D4004725D9 /* AppDelegate.swift */; };
 		EC8683511EEA95D4004725D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8683501EEA95D4004725D9 /* ViewController.swift */; };
 		EC8683541EEA95D4004725D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8683521EEA95D4004725D9 /* Main.storyboard */; };
 		EC8683561EEA95D4004725D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8683551EEA95D4004725D9 /* Assets.xcassets */; };
 		EC8683591EEA95D4004725D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8683571EEA95D4004725D9 /* LaunchScreen.storyboard */; };
+		EC8683611EEA9BAE004725D9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = EC8683601EEA9BAE004725D9 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC807D9B1EEE1F41005F2E3B /* Native.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Native.swift; sourceTree = "<group>"; };
+		EC807D9F1EEE24FD005F2E3B /* RLBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLBridge.swift; sourceTree = "<group>"; };
+		EC807DA11EEE262F005F2E3B /* RLWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RLWebView.swift; sourceTree = "<group>"; };
 		EC86834B1EEA95D4004725D9 /* WKWebViewMessageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewMessageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC86834E1EEA95D4004725D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC8683501EEA95D4004725D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		EC8683551EEA95D4004725D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8683581EEA95D4004725D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC86835A1EEA95D4004725D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8683601EEA9BAE004725D9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		EC86834D1EEA95D4004725D9 /* WKWebViewMessageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EC8683601EEA9BAE004725D9 /* index.html */,
 				EC86834E1EEA95D4004725D9 /* AppDelegate.swift */,
 				EC8683501EEA95D4004725D9 /* ViewController.swift */,
 				EC8683521EEA95D4004725D9 /* Main.storyboard */,
 				EC8683551EEA95D4004725D9 /* Assets.xcassets */,
 				EC8683571EEA95D4004725D9 /* LaunchScreen.storyboard */,
 				EC86835A1EEA95D4004725D9 /* Info.plist */,
+				EC807D9B1EEE1F41005F2E3B /* Native.swift */,
+				EC807D9F1EEE24FD005F2E3B /* RLBridge.swift */,
+				EC807DA11EEE262F005F2E3B /* RLWebView.swift */,
 			);
 			path = WKWebViewMessageDemo;
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC8683591EEA95D4004725D9 /* LaunchScreen.storyboard in Resources */,
+				EC8683611EEA9BAE004725D9 /* index.html in Resources */,
 				EC8683561EEA95D4004725D9 /* Assets.xcassets in Resources */,
 				EC8683541EEA95D4004725D9 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC807DA01EEE24FD005F2E3B /* RLBridge.swift in Sources */,
+				EC807D9C1EEE1F41005F2E3B /* Native.swift in Sources */,
+				EC807DA21EEE262F005F2E3B /* RLWebView.swift in Sources */,
 				EC8683511EEA95D4004725D9 /* ViewController.swift in Sources */,
 				EC86834F1EEA95D4004725D9 /* AppDelegate.swift in Sources */,
 			);
@@ -299,6 +315,7 @@
 				EC86835F1EEA95D4004725D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
